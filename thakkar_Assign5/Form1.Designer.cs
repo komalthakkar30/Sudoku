@@ -126,6 +126,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Saved_Label = new System.Windows.Forms.Label();
+            this.Status_Label = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -215,16 +216,16 @@
             this.panel1.Controls.Add(this.textBox13);
             this.panel1.Controls.Add(this.textBox12);
             this.panel1.Controls.Add(this.textBox11);
-            this.panel1.Location = new System.Drawing.Point(158, 136);
+            this.panel1.Location = new System.Drawing.Point(158, 170);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(374, 375);
+            this.panel1.Size = new System.Drawing.Size(374, 368);
             this.panel1.TabIndex = 0;
             // 
             // textBox99
             // 
             this.textBox99.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox99.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox99.Location = new System.Drawing.Point(335, 331);
+            this.textBox99.Location = new System.Drawing.Point(335, 333);
             this.textBox99.Multiline = true;
             this.textBox99.Name = "textBox99";
             this.textBox99.Size = new System.Drawing.Size(40, 40);
@@ -235,7 +236,7 @@
             // 
             this.textBox98.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox98.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox98.Location = new System.Drawing.Point(293, 331);
+            this.textBox98.Location = new System.Drawing.Point(293, 333);
             this.textBox98.Multiline = true;
             this.textBox98.Name = "textBox98";
             this.textBox98.Size = new System.Drawing.Size(40, 40);
@@ -246,7 +247,7 @@
             // 
             this.textBox97.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox97.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox97.Location = new System.Drawing.Point(252, 331);
+            this.textBox97.Location = new System.Drawing.Point(252, 333);
             this.textBox97.Multiline = true;
             this.textBox97.Name = "textBox97";
             this.textBox97.Size = new System.Drawing.Size(40, 40);
@@ -257,7 +258,7 @@
             // 
             this.textBox96.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox96.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox96.Location = new System.Drawing.Point(209, 331);
+            this.textBox96.Location = new System.Drawing.Point(209, 333);
             this.textBox96.Multiline = true;
             this.textBox96.Name = "textBox96";
             this.textBox96.Size = new System.Drawing.Size(40, 40);
@@ -268,7 +269,7 @@
             // 
             this.textBox95.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox95.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox95.Location = new System.Drawing.Point(168, 331);
+            this.textBox95.Location = new System.Drawing.Point(168, 333);
             this.textBox95.Multiline = true;
             this.textBox95.Name = "textBox95";
             this.textBox95.Size = new System.Drawing.Size(40, 40);
@@ -279,7 +280,7 @@
             // 
             this.textBox94.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox94.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox94.Location = new System.Drawing.Point(127, 331);
+            this.textBox94.Location = new System.Drawing.Point(127, 333);
             this.textBox94.Multiline = true;
             this.textBox94.Name = "textBox94";
             this.textBox94.Size = new System.Drawing.Size(40, 40);
@@ -290,7 +291,7 @@
             // 
             this.textBox93.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox93.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox93.Location = new System.Drawing.Point(84, 331);
+            this.textBox93.Location = new System.Drawing.Point(84, 333);
             this.textBox93.Multiline = true;
             this.textBox93.Name = "textBox93";
             this.textBox93.Size = new System.Drawing.Size(40, 40);
@@ -301,7 +302,7 @@
             // 
             this.textBox92.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox92.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox92.Location = new System.Drawing.Point(42, 331);
+            this.textBox92.Location = new System.Drawing.Point(42, 333);
             this.textBox92.Multiline = true;
             this.textBox92.Name = "textBox92";
             this.textBox92.Size = new System.Drawing.Size(40, 40);
@@ -312,7 +313,7 @@
             // 
             this.textBox91.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox91.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox91.Location = new System.Drawing.Point(1, 331);
+            this.textBox91.Location = new System.Drawing.Point(1, 333);
             this.textBox91.Multiline = true;
             this.textBox91.Name = "textBox91";
             this.textBox91.Size = new System.Drawing.Size(40, 40);
@@ -323,7 +324,7 @@
             // 
             this.textBox89.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox89.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox89.Location = new System.Drawing.Point(335, 291);
+            this.textBox89.Location = new System.Drawing.Point(335, 292);
             this.textBox89.Multiline = true;
             this.textBox89.Name = "textBox89";
             this.textBox89.Size = new System.Drawing.Size(40, 40);
@@ -334,7 +335,7 @@
             // 
             this.textBox88.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox88.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox88.Location = new System.Drawing.Point(293, 291);
+            this.textBox88.Location = new System.Drawing.Point(293, 292);
             this.textBox88.Multiline = true;
             this.textBox88.Name = "textBox88";
             this.textBox88.Size = new System.Drawing.Size(40, 40);
@@ -345,7 +346,7 @@
             // 
             this.textBox87.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox87.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox87.Location = new System.Drawing.Point(252, 291);
+            this.textBox87.Location = new System.Drawing.Point(252, 292);
             this.textBox87.Multiline = true;
             this.textBox87.Name = "textBox87";
             this.textBox87.Size = new System.Drawing.Size(40, 40);
@@ -356,7 +357,7 @@
             // 
             this.textBox86.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox86.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox86.Location = new System.Drawing.Point(209, 291);
+            this.textBox86.Location = new System.Drawing.Point(209, 292);
             this.textBox86.Multiline = true;
             this.textBox86.Name = "textBox86";
             this.textBox86.Size = new System.Drawing.Size(40, 40);
@@ -367,7 +368,7 @@
             // 
             this.textBox85.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox85.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox85.Location = new System.Drawing.Point(168, 291);
+            this.textBox85.Location = new System.Drawing.Point(168, 292);
             this.textBox85.Multiline = true;
             this.textBox85.Name = "textBox85";
             this.textBox85.Size = new System.Drawing.Size(40, 40);
@@ -378,7 +379,7 @@
             // 
             this.textBox84.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox84.Location = new System.Drawing.Point(127, 291);
+            this.textBox84.Location = new System.Drawing.Point(127, 292);
             this.textBox84.Multiline = true;
             this.textBox84.Name = "textBox84";
             this.textBox84.Size = new System.Drawing.Size(40, 40);
@@ -389,7 +390,7 @@
             // 
             this.textBox83.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox83.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox83.Location = new System.Drawing.Point(84, 291);
+            this.textBox83.Location = new System.Drawing.Point(84, 292);
             this.textBox83.Multiline = true;
             this.textBox83.Name = "textBox83";
             this.textBox83.Size = new System.Drawing.Size(40, 40);
@@ -400,7 +401,7 @@
             // 
             this.textBox82.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox82.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox82.Location = new System.Drawing.Point(42, 291);
+            this.textBox82.Location = new System.Drawing.Point(42, 292);
             this.textBox82.Multiline = true;
             this.textBox82.Name = "textBox82";
             this.textBox82.Size = new System.Drawing.Size(40, 40);
@@ -411,7 +412,7 @@
             // 
             this.textBox81.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox81.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox81.Location = new System.Drawing.Point(1, 291);
+            this.textBox81.Location = new System.Drawing.Point(1, 292);
             this.textBox81.Multiline = true;
             this.textBox81.Name = "textBox81";
             this.textBox81.Size = new System.Drawing.Size(40, 40);
@@ -422,7 +423,7 @@
             // 
             this.textBox79.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox79.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox79.Location = new System.Drawing.Point(335, 250);
+            this.textBox79.Location = new System.Drawing.Point(335, 251);
             this.textBox79.Multiline = true;
             this.textBox79.Name = "textBox79";
             this.textBox79.Size = new System.Drawing.Size(40, 40);
@@ -433,7 +434,7 @@
             // 
             this.textBox78.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox78.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox78.Location = new System.Drawing.Point(293, 250);
+            this.textBox78.Location = new System.Drawing.Point(293, 251);
             this.textBox78.Multiline = true;
             this.textBox78.Name = "textBox78";
             this.textBox78.Size = new System.Drawing.Size(40, 40);
@@ -444,7 +445,7 @@
             // 
             this.textBox77.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox77.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox77.Location = new System.Drawing.Point(252, 250);
+            this.textBox77.Location = new System.Drawing.Point(252, 251);
             this.textBox77.Multiline = true;
             this.textBox77.Name = "textBox77";
             this.textBox77.Size = new System.Drawing.Size(40, 40);
@@ -455,7 +456,7 @@
             // 
             this.textBox76.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox76.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox76.Location = new System.Drawing.Point(209, 250);
+            this.textBox76.Location = new System.Drawing.Point(209, 251);
             this.textBox76.Multiline = true;
             this.textBox76.Name = "textBox76";
             this.textBox76.Size = new System.Drawing.Size(40, 40);
@@ -466,7 +467,7 @@
             // 
             this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox75.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox75.Location = new System.Drawing.Point(168, 250);
+            this.textBox75.Location = new System.Drawing.Point(168, 251);
             this.textBox75.Multiline = true;
             this.textBox75.Name = "textBox75";
             this.textBox75.Size = new System.Drawing.Size(40, 40);
@@ -477,7 +478,7 @@
             // 
             this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox74.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox74.Location = new System.Drawing.Point(127, 250);
+            this.textBox74.Location = new System.Drawing.Point(127, 251);
             this.textBox74.Multiline = true;
             this.textBox74.Name = "textBox74";
             this.textBox74.Size = new System.Drawing.Size(40, 40);
@@ -488,7 +489,7 @@
             // 
             this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox73.Location = new System.Drawing.Point(84, 250);
+            this.textBox73.Location = new System.Drawing.Point(84, 251);
             this.textBox73.Multiline = true;
             this.textBox73.Name = "textBox73";
             this.textBox73.Size = new System.Drawing.Size(40, 40);
@@ -499,7 +500,7 @@
             // 
             this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox72.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox72.Location = new System.Drawing.Point(42, 250);
+            this.textBox72.Location = new System.Drawing.Point(42, 251);
             this.textBox72.Multiline = true;
             this.textBox72.Name = "textBox72";
             this.textBox72.Size = new System.Drawing.Size(40, 40);
@@ -510,7 +511,7 @@
             // 
             this.textBox71.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox71.Location = new System.Drawing.Point(1, 250);
+            this.textBox71.Location = new System.Drawing.Point(1, 251);
             this.textBox71.Multiline = true;
             this.textBox71.Name = "textBox71";
             this.textBox71.Size = new System.Drawing.Size(40, 40);
@@ -521,7 +522,7 @@
             // 
             this.textBox69.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox69.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox69.Location = new System.Drawing.Point(335, 207);
+            this.textBox69.Location = new System.Drawing.Point(335, 208);
             this.textBox69.Multiline = true;
             this.textBox69.Name = "textBox69";
             this.textBox69.Size = new System.Drawing.Size(40, 40);
@@ -532,7 +533,7 @@
             // 
             this.textBox68.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox68.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox68.Location = new System.Drawing.Point(293, 207);
+            this.textBox68.Location = new System.Drawing.Point(293, 208);
             this.textBox68.Multiline = true;
             this.textBox68.Name = "textBox68";
             this.textBox68.Size = new System.Drawing.Size(40, 40);
@@ -543,7 +544,7 @@
             // 
             this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox67.Location = new System.Drawing.Point(252, 207);
+            this.textBox67.Location = new System.Drawing.Point(252, 208);
             this.textBox67.Multiline = true;
             this.textBox67.Name = "textBox67";
             this.textBox67.Size = new System.Drawing.Size(40, 40);
@@ -554,7 +555,7 @@
             // 
             this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox66.Location = new System.Drawing.Point(209, 207);
+            this.textBox66.Location = new System.Drawing.Point(209, 208);
             this.textBox66.Multiline = true;
             this.textBox66.Name = "textBox66";
             this.textBox66.Size = new System.Drawing.Size(40, 40);
@@ -565,7 +566,7 @@
             // 
             this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox65.Location = new System.Drawing.Point(168, 207);
+            this.textBox65.Location = new System.Drawing.Point(168, 208);
             this.textBox65.Multiline = true;
             this.textBox65.Name = "textBox65";
             this.textBox65.Size = new System.Drawing.Size(40, 40);
@@ -576,7 +577,7 @@
             // 
             this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox64.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox64.Location = new System.Drawing.Point(127, 207);
+            this.textBox64.Location = new System.Drawing.Point(127, 208);
             this.textBox64.Multiline = true;
             this.textBox64.Name = "textBox64";
             this.textBox64.Size = new System.Drawing.Size(40, 40);
@@ -587,7 +588,7 @@
             // 
             this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox63.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox63.Location = new System.Drawing.Point(84, 207);
+            this.textBox63.Location = new System.Drawing.Point(84, 208);
             this.textBox63.Multiline = true;
             this.textBox63.Name = "textBox63";
             this.textBox63.Size = new System.Drawing.Size(40, 40);
@@ -598,7 +599,7 @@
             // 
             this.textBox62.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox62.Location = new System.Drawing.Point(42, 207);
+            this.textBox62.Location = new System.Drawing.Point(42, 208);
             this.textBox62.Multiline = true;
             this.textBox62.Name = "textBox62";
             this.textBox62.Size = new System.Drawing.Size(40, 40);
@@ -609,7 +610,7 @@
             // 
             this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox61.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox61.Location = new System.Drawing.Point(1, 207);
+            this.textBox61.Location = new System.Drawing.Point(1, 208);
             this.textBox61.Multiline = true;
             this.textBox61.Name = "textBox61";
             this.textBox61.Size = new System.Drawing.Size(40, 40);
@@ -620,7 +621,7 @@
             // 
             this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox59.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox59.Location = new System.Drawing.Point(335, 166);
+            this.textBox59.Location = new System.Drawing.Point(335, 167);
             this.textBox59.Multiline = true;
             this.textBox59.Name = "textBox59";
             this.textBox59.Size = new System.Drawing.Size(40, 40);
@@ -631,7 +632,7 @@
             // 
             this.textBox58.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox58.Location = new System.Drawing.Point(293, 166);
+            this.textBox58.Location = new System.Drawing.Point(293, 167);
             this.textBox58.Multiline = true;
             this.textBox58.Name = "textBox58";
             this.textBox58.Size = new System.Drawing.Size(40, 40);
@@ -642,7 +643,7 @@
             // 
             this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox57.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox57.Location = new System.Drawing.Point(252, 166);
+            this.textBox57.Location = new System.Drawing.Point(252, 167);
             this.textBox57.Multiline = true;
             this.textBox57.Name = "textBox57";
             this.textBox57.Size = new System.Drawing.Size(40, 40);
@@ -653,7 +654,7 @@
             // 
             this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox56.Location = new System.Drawing.Point(209, 166);
+            this.textBox56.Location = new System.Drawing.Point(209, 167);
             this.textBox56.Multiline = true;
             this.textBox56.Name = "textBox56";
             this.textBox56.Size = new System.Drawing.Size(40, 40);
@@ -664,7 +665,7 @@
             // 
             this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox55.Location = new System.Drawing.Point(168, 166);
+            this.textBox55.Location = new System.Drawing.Point(168, 167);
             this.textBox55.Multiline = true;
             this.textBox55.Name = "textBox55";
             this.textBox55.Size = new System.Drawing.Size(40, 40);
@@ -675,7 +676,7 @@
             // 
             this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox54.Location = new System.Drawing.Point(127, 166);
+            this.textBox54.Location = new System.Drawing.Point(127, 167);
             this.textBox54.Multiline = true;
             this.textBox54.Name = "textBox54";
             this.textBox54.Size = new System.Drawing.Size(40, 40);
@@ -686,7 +687,7 @@
             // 
             this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox53.Location = new System.Drawing.Point(84, 166);
+            this.textBox53.Location = new System.Drawing.Point(84, 167);
             this.textBox53.Multiline = true;
             this.textBox53.Name = "textBox53";
             this.textBox53.Size = new System.Drawing.Size(40, 40);
@@ -697,7 +698,7 @@
             // 
             this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox52.Location = new System.Drawing.Point(42, 166);
+            this.textBox52.Location = new System.Drawing.Point(42, 167);
             this.textBox52.Multiline = true;
             this.textBox52.Name = "textBox52";
             this.textBox52.Size = new System.Drawing.Size(40, 40);
@@ -708,7 +709,7 @@
             // 
             this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox51.Location = new System.Drawing.Point(1, 166);
+            this.textBox51.Location = new System.Drawing.Point(1, 167);
             this.textBox51.Multiline = true;
             this.textBox51.Name = "textBox51";
             this.textBox51.Size = new System.Drawing.Size(40, 40);
@@ -1113,6 +1114,7 @@
             // 
             // Reset_Button
             // 
+            this.Reset_Button.Enabled = false;
             this.Reset_Button.Location = new System.Drawing.Point(323, 571);
             this.Reset_Button.Name = "Reset_Button";
             this.Reset_Button.Size = new System.Drawing.Size(105, 35);
@@ -1168,15 +1170,18 @@
             // 
             // Help_Button
             // 
+            this.Help_Button.Enabled = false;
             this.Help_Button.Location = new System.Drawing.Point(193, 571);
             this.Help_Button.Name = "Help_Button";
             this.Help_Button.Size = new System.Drawing.Size(105, 35);
             this.Help_Button.TabIndex = 7;
             this.Help_Button.Text = "Help";
             this.Help_Button.UseVisualStyleBackColor = true;
+            this.Help_Button.Click += new System.EventHandler(this.Help_Button_Click);
             // 
             // Progress_Button
             // 
+            this.Progress_Button.Enabled = false;
             this.Progress_Button.Location = new System.Drawing.Point(38, 571);
             this.Progress_Button.Name = "Progress_Button";
             this.Progress_Button.Size = new System.Drawing.Size(130, 35);
@@ -1220,7 +1225,7 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(104, 113);
+            this.panel2.Location = new System.Drawing.Point(127, 146);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(440, 407);
             this.panel2.TabIndex = 12;
@@ -1250,20 +1255,29 @@
             // Saved_Label
             // 
             this.Saved_Label.AutoSize = true;
-            this.Saved_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Saved_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Saved_Label.ForeColor = System.Drawing.Color.ForestGreen;
             this.Saved_Label.Location = new System.Drawing.Point(247, 633);
             this.Saved_Label.Name = "Saved_Label";
-            this.Saved_Label.Size = new System.Drawing.Size(181, 25);
+            this.Saved_Label.Size = new System.Drawing.Size(154, 20);
             this.Saved_Label.TabIndex = 14;
             this.Saved_Label.Text = "Your work is saved.";
-            this.Saved_Label.Visible = false;
+            // 
+            // Status_Label
+            // 
+            this.Status_Label.AutoSize = true;
+            this.Status_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Status_Label.Location = new System.Drawing.Point(252, 123);
+            this.Status_Label.Name = "Status_Label";
+            this.Status_Label.Size = new System.Drawing.Size(0, 20);
+            this.Status_Label.TabIndex = 15;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 745);
+            this.Controls.Add(this.Status_Label);
             this.Controls.Add(this.Saved_Label);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
@@ -1388,6 +1402,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label Saved_Label;
+        private System.Windows.Forms.Label Status_Label;
     }
 }
 
