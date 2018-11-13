@@ -1,0 +1,12 @@
+medium/m1.txt;82;201,344,487
+medium/m2.txt
+medium/m3.txt
+medium/m4.txt
+hard/h1.txt
+hard/h2.txt
+hard/h3.txt
+hard/h4.txt
+easy/e2.txt;0;201,344,487
+easy/e4.txt;0;445,253,340,267
+easy/e3.txt;0;401,253,387,270,51
+easy/e1.txt;0;310,283,500,38
