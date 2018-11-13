@@ -138,7 +138,12 @@ namespace thakkar_Assign5
                 timer1.Stop();
                 btn.Text = "Resume";
                 panel1.BackColor = Color.White;
+
                 Save_Button.Enabled = false;
+                Progress_Button.Enabled = false;
+                Help_Button.Enabled = false;
+                Reset_Button.Enabled = false;
+
                 panel1.Visible = false;
                 panel2.Visible = true;
             }
@@ -147,9 +152,13 @@ namespace thakkar_Assign5
                 timer1.Start();
                 btn.Text = "Pause";
                 panel1.BackColor = Color.Black;
-                Save_Button.Enabled = true;
                 panel1.Visible = true;
                 panel2.Visible = false;
+
+                Save_Button.Enabled = true;
+                Progress_Button.Enabled = true;
+                Help_Button.Enabled = true;
+                Reset_Button.Enabled = true;
             }
         }
 
@@ -316,6 +325,9 @@ namespace thakkar_Assign5
             Reset_Button.Enabled = true;
             Save_Button.Enabled = true;
             Pause_Button.Enabled = true;
+
+            Saved_Label.Text = "";
+            Status_Label.Text = "";
         }
 
         private void Progress_Button_Click(object sender, EventArgs e)
